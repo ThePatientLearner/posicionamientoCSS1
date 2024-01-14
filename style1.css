@@ -1,0 +1,215 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#contenedor{
+    width: 100%;
+    margin: 25px auto;
+    text-align: left;
+}
+
+header{
+    background-color: rgba(157, 224, 56, 0.896);
+}
+
+header img{
+   
+    text-align: center;
+    display: block;
+}
+
+nav{
+    background-color: black;
+    border-top: 1px solid wheat;
+    
+}
+/* por qué tengo que especificarlo tan concretamente?*/
+nav ul li a{
+    color: white;
+    font-size: large;
+    text-decoration: none;
+}
+
+nav ul li{
+    display: inline-block;
+    padding-left: 5%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+
+main{
+    float: left;
+    width: 60%;
+    padding: 20px;
+}
+
+#quote{
+    margin-bottom: 2%;
+    color: grey;
+    margin-top: 0.5%;
+}
+
+/* por qué tengo que especificarlo tan concretamente?*/
+main img{
+    width: 100%;
+    height: auto
+}
+
+article{
+    line-height: 25px;
+}
+
+main table{
+    border-collapse: collapse; /* esto elimina la separación entre bordes de la tabla*/
+    border: 1px solid black;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 3%;
+}
+
+#siguenos{
+    font-size:xx-large;
+    padding-left: 2%;
+}
+
+th, td{
+    border:3px solid deepskyblue;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 10px;
+    font-size:medium;
+}
+
+th{
+    background-color: deepskyblue;
+}
+
+tr{
+    background-color: dodgerblue;
+}
+
+.fila_impar{
+    background-color: aqua;
+}
+
+#redes_sociales{
+    width: 100%;
+    text-align: center;
+}
+
+#redes_sociales img{
+    padding-top: 2%;
+    width: 7%;
+    display: inline-block;
+    margin-left: 5%;
+    
+}
+
+aside{
+    float: left;
+    width: 40%;
+}
+
+#recomendados h2{
+    text-transform: uppercase;
+    font-size: 0.8em;
+    color: grey;
+    padding: 20px 0px;
+    margin-left: 2%;
+    margin-top: 3%;
+}
+
+.articulo{
+    width: 90%;
+    border: 1px solid lightgray;
+    margin-left: 2%;
+}
+
+/*¿por qué he tenido que especificar img? */
+.articulo figure img{
+   width: 40%;
+   float: left;
+   padding: 10px 10px;
+}
+
+.articulo p{
+    width: 60%;
+    float: left;
+    padding: 20px 10px;
+    }
+    
+
+/* esto no acabo de entender como funciona, solo lo puse porque lo pusiste tu en la otra pagina*/
+.limpiar{
+    clear: both;
+}
+
+#escribenos{
+    margin-top: 3%;
+    margin-bottom: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+legend{
+    margin-left: 5%;
+    margin-bottom: 3%; 
+    font-style:oblique;
+}
+
+input,label,textarea{
+    display: block;
+    width: 90%;
+    padding: 8px;
+    margin: 5px 5%;
+    font-size:large;
+    
+}
+
+#enviar{
+    margin-bottom: 5%;
+}
+
+label{
+    color: gray;
+}
+
+footer{
+    clear:both;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+footer div{
+    display: inline-block;
+    margin: 10px 30px;
+    
+    
+}
+
+footer div ul li{
+    list-style: none;
+    padding: 10px 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: grey;
+}
+
+#subir {
+    color: white;
+    text-decoration: none;
+    background: lightgrey;
+    padding: 10px 20px;
+    border-radius: 10px;
+    float: right;
+}
+
+
+
